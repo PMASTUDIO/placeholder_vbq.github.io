@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("/img/aurora-bg.jpg");
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Archivo Black', Helvetica, sans-serif;
+    font-size: 3.6em;
+    text-transform: uppercase;
+    margin-top: 20vh;
+    color: #e6e6e6;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+    color: #a9a9a9;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+footer a {
+    color: rgb(36, 106, 3);
+}
